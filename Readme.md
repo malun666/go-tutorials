@@ -35,7 +35,7 @@ func main() {
 }
 ```
 
-build and run the code
+Build and run the code
 
 ```sh
 cd workspace
@@ -43,7 +43,7 @@ go build index.go
 ./index
 ```
 
-we can get the output as below:
+We can get the output as below:
 
 ```sh
 Hello, world, aicoder.com
