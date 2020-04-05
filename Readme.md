@@ -96,5 +96,58 @@ i:= 3 // Line comments , 行注释
   General comments, mutiple lines comments
   多行注释
 */
+```
 
+### 标识符
+
+标识符用于声明函数、接口、类型、变量等的名字。
+
+#### 保留字和关键字
+
+```sh
+break        default      func         interface    select
+case         defer        go           map          struct
+chan         else         goto         package      switch
+const        fallthrough  if           range        type
+continue     for          import       return       var
+```
+
+#### 预定义标识符
+
+- Types:
+
+```sh
+bool byte complex64 complex128 error float32 float64
+int int8 int16 int32 int64 rune string
+uint uint8 uint16 uint32 uint64 uintptr
+```
+
+- Constants:
+
+```sh
+true false iota
+```
+
+- Zero value:
+
+```sh
+nil
+```
+
+- Functions:
+
+```sh
+append cap close complex copy delete imag len
+make new panic print println real recover
+```
+
+### 运算符
+
+```sh
++    &     +=    &=     &&    ==    !=    (    )
+-    |     -=    |=     ||    <     <=    [    ]
+*    ^     *=    ^=     <-    >     >=    {    }
+/    <<    /=    <<=    ++    =     :=    ,    ;
+%    >>    %=    >>=    --    !     ...   .    :
+     &^          &^=
 ```
