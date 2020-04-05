@@ -1,6 +1,6 @@
 # Go Tutorials(Go 语言教程)
 
-此教程是为初学 Go 语言的小伙伴准备的简明版本的教程。
+此教程是为初学 Go 语言的小伙伴准备的简明版本的教程。  
 This docs is for the beginner who start to learn Go Language.
 
 > 教程会有中英文的翻译。
@@ -8,6 +8,7 @@ This docs is for the beginner who start to learn Go Language.
 ## Setup(Go 语言安装)
 
 安装 Go 语言环境。
+
 Install Go [click here](https://golang.org/doc/install)
 
 ## Editor plugins and IDEs
@@ -23,6 +24,7 @@ Read more [here](https://golang.org/doc/editors.html)
 ## Hellow World(第一个 Go 程序)
 
 第一个 Go 程序。
+
 Your first Go program.
 
 ```sh
@@ -35,6 +37,7 @@ touch index.go
 Open the `workspace` by `vscode`.
 
 添加`index.go`文件，并添加以下代码：
+
 Add the following code to `index.go`
 
 ```go
@@ -48,6 +51,7 @@ func main() {
 ```
 
 编译上面的程序，并运行。
+
 Build and run the code.
 
 ```sh
@@ -60,6 +64,7 @@ go build index.go
 > Go command tool has several commands, e.g., doc, build, fix, fmt. Read more [here](https://golang.org/doc/cmd)
 
 在控制台中获得如下输出：
+
 We can get the output as below:
 
 ```sh
@@ -78,10 +83,11 @@ Hello, world, aicoder.com
 ### Comments（注释）
 
 Comments serve as program documentation. There are two forms:
+
 注释是写给程序员来阅读代码的，不会编译到最终程序中。Go 语言有两种注释（类似 C、Java、C#、JavaScript)
 
-Line comments start with the character sequence `//` and stop at the end of the line.
-General comments start with the character sequence `/*` and stop with the first subsequent character sequence `*/`.
+- Line comments start with the character sequence `//` and stop at the end of the line.
+- General comments start with the character sequence `/*` and stop with the first subsequent character sequence `*/`.
 
 ```go
 i:= 3 // Line comments , 行注释
